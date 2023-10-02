@@ -8,7 +8,7 @@ interface PROPS {
     id: number
 }
 
-const Card: FC<PROPS> = ({case:{text, link}}) => {
+const Card: FC<{ case: PROPS }> = ({case:{text, link}}) => {
     return (
         <div className='card flex justify-between w-full py-[24px] border-b-2'>
             <p className="w-[782px] text-[16px] text-[#333] leading-[24px]">{text}</p> 

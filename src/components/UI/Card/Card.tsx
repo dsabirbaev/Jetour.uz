@@ -9,7 +9,7 @@ interface PROPS {
     id: number
 }
 
-const Card: FC<PROPS> = ({case:{title , description , img , link , speed , id}}) => {
+const Card: FC<{ case: PROPS }> = ({case:{title , description , img , link , speed}}) => {
     return (
         <div className='card flex gap-x-[132px] border-b-2  py-[40px]'>
             <div className="bg-[#E6E6E6] px-[55px] pt-[30px] pb-[10px] rounded-[12px] w-[650px]">
