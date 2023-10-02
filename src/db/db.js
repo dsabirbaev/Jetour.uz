@@ -39,4 +39,32 @@ const models = [
     },
 ]
 
-export {models}
+const service = [
+    {
+        id: 1,
+        text: "JETOUR avtomobil ishlab chiqarish bo‘yicha 20 yildan ortiq tajribagaega bo‘lgan taniqli kompaniya ... ",
+        link : "#"
+    },
+    {
+        id: 2,
+        text: "Avtomobil sanoatidagi 20 yildan ortiq tajribaga asoslanib, xalqaro mutaxassislar jamoasining ichki rivojlanishi bilan JETOUR innovatsion va aqlli krossoverlar oilasini taqdim etadi. ",
+        link : "#"
+    },
+    {
+        id: 3,
+        text: "Avtomobil sanoatidagi 20 yildan ortiq tajribaga asoslanib, xalqaro mutaxassislar jamoasining ichki rivojlanishi bilan JETOUR innovatsion va aqlli krossoverlar oilasini taqdim etadi. ",
+        link : "#"
+    },
+    {
+        id: 4,
+        text: "Avtomobil sanoatidagi 20 yildan ortiq tajribaga asoslanib, xalqaro mutaxassislar jamoasining ichki rivojlanishi bilan JETOUR innovatsion va aqlli krossoverlar oilasini taqdim etadi. ",
+        link : "#"
+    },
+    {
+        id: 5,
+        text: "Avtomobil sanoatidagi 20 yildan ortiq tajribaga asoslanib, xalqaro mutaxassislar jamoasining ichki rivojlanishi bilan JETOUR innovatsion va aqlli krossoverlar oilasini taqdim etadi.",
+        link : "#"
+    },
+]
+
+export {models, service}
