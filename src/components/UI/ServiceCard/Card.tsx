@@ -4,8 +4,7 @@ import  {FC} from 'react';
 import arrow from "../../../assets/icons/arrow-vertical.svg";
 interface PROPS {
     text: string, 
-    link: string, 
-    id: number
+    link: string
 }
 
 const Card: FC<{ case: PROPS }> = ({case:{text, link}}) => {

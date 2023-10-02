@@ -3,10 +3,9 @@ import arrow from "../../../assets/icons/arrow.svg";
 interface PROPS {
     title: string,
     description: string,
-    image: string, 
+    img: string, 
     link: string, 
-    speed:string,
-    id: number
+    speed:string
 }
 
 const Card: FC<{ case: PROPS }> = ({case:{title , description , img , link , speed}}) => {
