@@ -4,7 +4,7 @@ import Card from "../../components/UI/Card/Card";
 import arrow from "../../assets/icons/discover.svg";
 const Models = () => {
     return (
-        <section className="pb-[120px]">
+        <section id="models" className="pb-[120px]">
             <div className="container mx-auto px-5">
                 <h2 className="uppercase text-[#666] font-bold mb-[61px] border-b-2 pb-[20px]">Models</h2>
 

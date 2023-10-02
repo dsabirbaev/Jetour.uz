@@ -4,7 +4,7 @@ import img3 from "../../assets/icons/arrow-ver-white.svg";
 import "./style.scss";
 const About = () => {
     return (
-        <section className="pb-[160px]">
+        <section id="about" className="pb-[160px]">
             <div className="container mx-auto px-5">
                 <h2 className="uppercase text-[#666] font-bold mb-[24px] border-b-2 pb-[20px]">About us</h2>
 

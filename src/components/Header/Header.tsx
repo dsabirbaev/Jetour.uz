@@ -2,27 +2,27 @@
 
 const Header = () => {
     return (
-        <header className="w-full fixed top-0 bg-white">
+        <header className="w-full fixed top-0 bg-white z-50 border-b-2">
             <div className="container mx-auto px-5">
-                <nav className="flex  items-center justify-between h-[61px] border-b-2 ">
+                <nav className="flex  items-center justify-between h-[61px]">
                     <ul className="flex gap-x-8 items-center">
                         <li>
-                            <a href="#" className="hover:text-green-700 duration-200">
+                            <a href="#models" className="hover:text-green-700 duration-200">
                                 Models
                             </a>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-green-700 duration-200">
+                            <a href="#about" className="hover:text-green-700 duration-200">
                                 About Us
                             </a>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-green-700 duration-200">
+                            <a href="#service" className="hover:text-green-700 duration-200">
                                 Service
                             </a>
                         </li>
                         <li>
-                            <a href="#" className="hover:text-green-700 duration-200">
+                            <a href="#footer" className="hover:text-green-700 duration-200">
                                 Contact
                             </a>
                         </li>
