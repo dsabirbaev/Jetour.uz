@@ -20,7 +20,7 @@ const Card: FC<PROPS> = ({case:{title , description , img , link , speed , id}})
                 <p className="text-[#999] text-[18px] uppercase">{speed}</p>
                 <div>
                     <h2 className="uppercase text-[24px] mb-5 text-[#1A1A1A] w-[400px]">{title}</h2>
-                    <p className="text-[16px] text-[#666] flex">{description} <span className="bg-[#E6E6E6] w-[56px] h-[44px] flex items-center justify-center rounded-[8px]"><a href={link}><img src={arrow} alt="arrow"/></a></span></p>
+                    <p className="text-[16px] text-[#2e2525] flex">{description} <span className="bg-[#E6E6E6] w-[56px] h-[44px] flex items-center justify-center rounded-[8px]"><a href={link}><img src={arrow} alt="arrow"/></a></span></p>
                 </div>
             </div>
         </div>
