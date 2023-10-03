@@ -16,8 +16,26 @@ ul {
   list-style-type: none;
 }
 
-body {
-  font-family: sans-serif;
+
+
+@font-face {
+  font-family: MichromaRegular;
+  src: url(./assets/fonts/Michroma/Michroma-Regular.ttf);
 }
 
 
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(./assets/fonts/Poppins/Poppins-Medium.ttf);
+}
+body {
+  font-family: MichromaRegular;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+}
