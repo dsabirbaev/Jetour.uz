@@ -18,7 +18,7 @@ const Models = () => {
 
                 <div className="flex justify-end mr-[250px]">
                     <div className="w-[200px] h-[200px] bg-[#F0F0F0] rounded-full flex items-center justify-center flex-col">
-                        <p className="text-[#666666] text-[20px] capitalize font-medium border-b pb-[5px]">Discover</p>
+                        <p className="text-[#666666] text-[20px] capitalize font-medium border-b pb-[5px] font-['PoppinsMedium']">Discover</p>
                         <img src={arrow} alt="arrow" />
                     </div>
                 </div>

@@ -25,7 +25,7 @@ const Service = () => {
                         <div className="flex flex-col justify-around">
                             <img src={logo} alt="logo" className="mb-[67px]"/>
 
-                            <form className="flex flex-col gap-y-[12px]">
+                            <form className="flex flex-col gap-y-[12px] font-['PoppinsRegular']">
                                 <input type="text" placeholder="Name" className="text-[16px] rounded-[12px] py-[12px] px-[20px] bg-[#E6E6E6]"/>
                                 <input type="number" placeholder="Phone" className="text-[16px] rounded-[12px] py-[12px] px-[20px] bg-[#E6E6E6]"/>
                                 <button className="text-[16px] bg-black text-white rounded-[12px] py-[12px]">Yuborish</button>
