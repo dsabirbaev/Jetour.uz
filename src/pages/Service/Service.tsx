@@ -26,9 +26,9 @@ const Service = () => {
                             <img src={logo} alt="logo" className="mb-[67px]"/>
 
                             <form className="flex flex-col gap-y-[12px] font-['PoppinsRegular']">
-                                <input type="text" placeholder="Name" className="text-[16px] rounded-[12px] py-[12px] px-[20px] bg-[#E6E6E6]"/>
-                                <input type="number" placeholder="Phone" className="text-[16px] rounded-[12px] py-[12px] px-[20px] bg-[#E6E6E6]"/>
-                                <button className="text-[16px] bg-black text-white rounded-[12px] py-[12px]">Yuborish</button>
+                                <input type="text" placeholder="Name" className="outline-none text-[16px] rounded-[12px] py-[12px] px-[20px] bg-[#E6E6E6]"/>
+                                <input type="tel" placeholder="Phone" className="outline-none text-[16px] rounded-[12px] py-[12px] px-[20px] bg-[#E6E6E6]"/>
+                                <button className="duration-200 hover:bg-white hover:text-black hover:border border hover:border-black duration-150 text-[16px] bg-black text-white rounded-[12px] py-[12px]">Yuborish</button>
                             </form>
                         </div>
                     </di>

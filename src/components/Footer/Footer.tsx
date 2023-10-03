@@ -14,10 +14,10 @@ const Footer = () => {
                         </div>  
 
                     </div>
-                    <div className="flex justify-between items-center gap-x-[20px] font-['PoppinsRegular']">
-                        <span className="py-[5px] bg-[#333333] text-white text-[16px] grow rounded-full text-center"><a href="#">Facebook</a></span>
-                        <span className="py-[5px] bg-[#333333] text-white text-[16px] grow rounded-full text-center"><a href="#">Instagram</a></span>
-                        <span className="py-[5px] bg-[#333333] text-white text-[16px] grow rounded-full text-center"><a href="#">Telegram</a></span>
+                    <div className="flex justify-between items-center gap-x-[20px] font-['PoppinsRegular'] cursor-pointer">
+                        <span className="hover:bg-[#3B5998] duration-200 py-[5px] bg-[#333333] text-white text-[16px] grow rounded-full text-center"><a href="#">Facebook</a></span>
+                        <span className="hover:bg-[#E50914] duration-200 py-[5px] bg-[#333333] text-white text-[16px] grow rounded-full text-center"><a href="#">Instagram</a></span>
+                        <span className="hover:bg-[#55ACEE] duration-200 py-[5px] bg-[#333333] text-white text-[16px] grow rounded-full text-center"><a href="#">Telegram</a></span>
                     </div>
                 </div>
             </div>
