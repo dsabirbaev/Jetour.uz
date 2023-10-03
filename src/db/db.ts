@@ -4,6 +4,7 @@ import img1 from "../assets/images/card1.png";
 import img2 from "../assets/images/card2.png";
 import img3 from "../assets/images/card3.png";
 import img4 from "../assets/images/card4.png";
+
 const models = [
     {
         id: 1,
@@ -39,6 +40,7 @@ const models = [
     },
 ]
 
+
 const service = [
     {
         id: 1,
@@ -67,4 +69,4 @@ const service = [
     },
 ]
 
-export {models, service}
+export {models, service};
